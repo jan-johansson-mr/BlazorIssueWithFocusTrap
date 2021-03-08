@@ -1,4 +1,4 @@
-# BlazorIssueWithFocusTrap
+# Blazor issue with focus trap
 
 This shows an issue with Blazor, causing an exception when switching pages.
 
