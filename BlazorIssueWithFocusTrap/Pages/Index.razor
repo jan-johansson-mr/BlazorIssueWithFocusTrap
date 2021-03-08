@@ -1,0 +1,22 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+<MudForm>
+    <MudExpansionPanels MultiExpansion="true">
+        <MudExpansionPanel Text="Expansion Panel">
+            <MudFocusTrap>
+                <MudTextField T="string" Label="Field1" />
+            </MudFocusTrap>
+        </MudExpansionPanel>
+        <MudExpansionPanel Text="Expansion Panel">
+            <MudFocusTrap>
+                <MudTextField T="string" Label="Field2" />
+            </MudFocusTrap>
+        </MudExpansionPanel>
+    </MudExpansionPanels>
+</MudForm>
